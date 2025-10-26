@@ -1,5 +1,5 @@
 import TechIcon from "../components/models/TechLogos/TechIcon";
-import { techStackIcons} from "../constants";
+import { techStackIcons, techStackImgs} from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
@@ -35,7 +35,7 @@ const TechStack = () => {
         />
 
         <div className="tech-grid">
-          {techStackIcons.map((icon) => (
+          {/* {techStackIcons.map((icon) => (
             <div
               key={icon.name}
               className="card-border tech-card overflow-hidden group lg:rounded-full rounded-lg"
@@ -52,9 +52,9 @@ const TechStack = () => {
                 </div>
               </div>
             </div>
-          ))}
+          ))} */}
 
-          {/* {techStackImgs.map((icon) => (
+          {techStackImgs.map((icon) => (
             <div
               key={icon.name}
               className="card-border tech-card overflow-hidden group lg:rounded-full rounded-lg"
@@ -69,7 +69,7 @@ const TechStack = () => {
                     </div>
                 </div>
             </div>
-          ))} */}
+          ))}
         </div>
       </div>
     </div>

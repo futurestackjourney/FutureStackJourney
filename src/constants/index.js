@@ -95,21 +95,21 @@ const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "C# Developer",
+    imgPath: "/images/logos/csharp.png",
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: "/images/logos/dotnet.png",
   },
   {
     name: "Interactive Developer",
     imgPath: "/images/logos/three.png",
   },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
+  // {
+  //   name: "Project Manager",
+  //   imgPath: "/images/logos/git.svg",
+  // },
 ];
 
 const techStackIcons = [
