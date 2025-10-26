@@ -21,7 +21,7 @@ const HeroExperience = () => {
       />
 
       <group
-        scale={isMobile ? 1 : 1}
+        scale={isMobile ? 0.7 : 1}
         position={isMobile ? [0,-5,0] : [0, -5, 0]}
         // rotation={[0, -0.7, 0]}
         rotation={[0, -Math.PI / 4, 0]}
