@@ -103,9 +103,17 @@ const techStackImgs = [
     imgPath: "/images/logos/dotnet.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "TypeScript Developer",
+    imgPath: "/images/logos/typescript.png",
   },
+  {
+    name: "JavaScript Developer",
+    imgPath: "/images/logos/javascript.png",
+  },
+  // {
+  //   name: "Interactive Developer",
+  //   imgPath: "/images/logos/tailwind.png",
+  // },
   // {
   //   name: "Project Manager",
   //   imgPath: "/images/logos/git.svg",
