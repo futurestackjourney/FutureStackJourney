@@ -52,16 +52,14 @@ const ShowcaseSection = () => {
           {/* LEFT */}
           <div ref={project1Ref} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde" />
+              <img src="/images/project4.jpg" alt="Ryde" />
             </div>
             <div className="text-content">
               <h2 className="">
-                On-Demand Made Simple with a powerfull, user-Friendly App called
-                Ryde.
+               Bitnova — A Real-Time Crypto Information Platform Delivering Market Trends and Insights.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo & TailwindCSS for a fast,
-                user-frirendly experience.
+                Built with React.js and TailwindCSS for a fast, responsive, and modern web experience.
               </p>
             </div>
           </div>
@@ -71,11 +69,11 @@ const ShowcaseSection = () => {
             <div ref={project2Ref} className="project">
               <div className="image-wrapper bg-[#ffefdb]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/project6.png"
                   alt="Library Managemnt Platform"
                 />
               </div>
-              <h2 className="">Library Managemnt Platform</h2>
+              <h2 className="">Pet Care & Adoption Managemnt </h2>
             </div>
 
             <div ref={project3Ref} className="project">
